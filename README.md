@@ -4,3 +4,9 @@
 
 Afro's repo: https://github.com/afropapp13/myNEUTAnalysis
 
+## Install
+
+```
+$ git clone 
+
+```
