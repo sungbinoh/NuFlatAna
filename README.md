@@ -34,3 +34,12 @@ In "cohpiana::executeEvent()" function, final state particles are collected usin
 Then, histograms of various kinematic variables are filled with a correct weights for producing cross-section histograms.
 
 If you updated the analyzer, area should be build again using "cmake".
+
+## Run Many input flat Ntuples
+
+Please check "run_flats.sh".\
+This is a simple bash script that runs multiple input flat Ntuples.\
+To run,
+```
+$ source run_flats.sh
+```
