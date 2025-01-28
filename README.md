@@ -21,7 +21,7 @@ There should be an executable file `run_cohpiana` generated in the main director
 
 ## Run
 
-You should copy input flat root files in ./input directory.
+You should copy input flat root files in `./input` directory.
 Then, in the main directory,
 ```
 $ ./run_cohpiana <filename>.root <sample_name>
