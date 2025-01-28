@@ -31,7 +31,8 @@ elif [ "$MY_OS_REL" = "Scientific Linux" ]; then
 else
   echo "WARNING: Unrecognized OS name \"${MY_OS_REL}\""
   echo "Unable to automatically set up ROOT"
+  echo "It is okay if you already have a working ROOT"
 fi
 
-export ROOT_INCLUDE_PATH=`root-config --incdir`:$ROOT_INCLUDE_PATH
+export ROOT_INCLUDE_PATH=`root-config --incdir`:$NuFlatAna_WD/plotter/include:$ROOT_INCLUDE_PATH
 export LD_LIBRARY_PATH=$NuFlatAna_LIB_PATH:`root-config --libdir`:$LD_LIBRARY_PATH
