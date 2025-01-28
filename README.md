@@ -17,7 +17,7 @@ $ cmake --build . -- install
 $ cd ..
 ```
 
-There should be an executable file "run_cohpiana" generated in the main directory.
+There should be an executable file `run_cohpiana` generated in the main directory.
 
 ## Run
 
@@ -26,19 +26,19 @@ Then, in the main directory,
 ```
 $ ./run_cohpiana <filename>.root <sample_name>
 ```
-Then, "hists_<sample_name>.root" file will be generated in "./output/root" directory.
+Then, `hists_<sample_name>.root` file will be generated in `./output/root` directory.
 
 ## Modifying the analyzer
 
-Please check ".src/cohpiana.C".\
-In "cohpiana::executeEvent()" function, final state particles are collected using FSP class.\
+Please check `.src/cohpiana.C`.\
+In `cohpiana::executeEvent()` function, final state particles are collected using FSP class.\
 Then, histograms of various kinematic variables are filled with a correct weights for producing cross-section histograms.
 
-If you updated the analyzer, area should be build again using "cmake".
+If you updated the analyzer, area should be build again using `cmake`.
 
 ## Run Many input flat Ntuples
 
-Please check "run_flats.sh".\
+Please check `run_flats.sh`.\
 This is a simple bash script that runs multiple input flat Ntuples.\
 To run,
 ```
@@ -47,8 +47,8 @@ $ source run_flats.sh
 
 ## Plotting
 
-Please check "./plotter/cohpixsec/draw_xsecs.C".\
-This macro reads the output file from the "cohpiana" analyzer.\
+Please check `./plotter/cohpixsec/draw_xsecs.C`.\
+This macro reads the output file from the `cohpiana` analyzer.\
 You can modify options in the macro
 ```
 int N_samples = 3;
