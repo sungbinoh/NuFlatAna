@@ -1,0 +1,3 @@
+./run_cohpiana 14_1000180400_CCCOHPION_v3_4_2_G21_11a_00_000.flat.root GENIE_G21_11a
+./run_cohpiana 14_1000180400_CCCOHPION_v3_4_2_G18_01a_02_11b.flat.root GENIE_G18_01a
+./run_cohpiana 14_1000180400_CCCOHPION_v3_4_2_G18_02a_02_11b.flat.root GENIE_G18_02a
