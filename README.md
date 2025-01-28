@@ -26,3 +26,11 @@ Then, in the main directory,
 $ ./run_cohpiana <filename>.root <sample_name>
 ```
 Then, "hists_<sample_name>.root" file will be generated in "./output/root" directory.
+
+## Modifying the analyzer
+
+Please check ".src/cohpiana.C".
+In "cohpiana::executeEvent()" function, final state particles are collected using FSP class.
+Then, histograms of various kinematic variables are filled with a correct weights for producing cross-section histograms.
+
+If you updated the analyzer, area should be build again using "cmake".
